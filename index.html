@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marika &amp; Rich - The Wedding</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href="css/marikarich.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49826603-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- End google analytics -->
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll p-nav-home" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll p-nav-wedding" href="#wedding">p-nav-wedding</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll p-nav-party" href="#reception">p-nav-party</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll p-nav-accom" href="#hotels">p-nav-accom</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll p-nav-area" href="#area">p-nav-area</a>
+                    </li>
+                <!--    <li>
+                        <a class="page-scroll p-nav-people" href="#people">p-nav-people</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll p-nav-map" href="#map-section">p-nav-map</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll p-nav-rsvp" href="#rsvp">p-nav-rsvp</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right pull-right">
+                    <li><a onclick="change_lang('english')" href="#">EN</a></li>
+                    <li><a onclick="change_lang('german')" href="#">DE</a></li>
+                    <li><a onclick="change_lang('plat')"  href="#">OF</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-4 text-center'>
+                    <h1 class="p1-marrich">Marika and Rich</h1>
+                    <h3 class="p1-date">3rd September</h3>
+                    <h3 class="p1-address">Aurich, Ostfriesland</h3>
+                </div>
+                <div class='col-md-8'>
+                    <img  class='img-responsive photo' src="img/forestkiss.JPG" data-rotate="5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Section -->
+    <section id="wedding" class="wedding-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="wed-title section-title"><span class="wed-title"></span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="wed-intro"></span>
+                    <br />
+                    <table class="infotable">
+                        <tr>
+                            <th><span class="wed-tab-date-head"></span></th>
+                            <td><span class="wed-tab-date-det"></span></td>
+                        </tr><tr>
+                            <th><span class="wed-tab-time-head"></span></th>
+                            <td><span class="wed-tab-time-det"></span></td>
+                        </tr><tr>
+                            <th><span class="wed-tab-add-head"></span></th>
+                            <td><a href="#map" class="page-scroll"><span class="wed-tab-add-det"></span></a></td>
+                        </tr><tr>
+                            <th><span class="wed-tab-dress-head"></span></th>
+                            <td><span class="wed-tab-dress-det"></span></td>
+                        </tr>
+                    </table>
+                    <br />
+                    <span class="wed-more"></span>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <img class='img-responsive photo hidden-sm hidden-xs' src="img/standesamt.jpg" data-rotate="-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reception Section -->
+    <section id="reception" class="reception-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="party-title  section-title">party-title</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <img class="img-responsive photo" src="img/compagniehaus.jpg" data-rotate="5">
+                </div>
+                <div class="col-md-6">
+                    <span class="party-intro">party-intro</span>
+                    <br />
+                    <table class="infotable">
+                        <tr>
+                            <th><span class="party-tab-when-head"></span></th>
+                            <td><span class="party-tab-when-det"></span></td>
+                        </tr><tr>
+                            <th><span class="party-tab-time-head"></span></th>
+                            <td><span class="party-tab-time-det"></span></td>
+                        </tr><tr>
+                            <th><span class="party-tab-add-head"></span></th>
+                            <td><a href="#map" class="page-scroll"><span class="party-tab-add-det"></span></a></td>
+                        </tr><tr>
+                            <th><span class="party-tab-web-head"></span></th>
+                            <td><a href="http://www.compagniehaus.de">http://www.compagniehaus.de</a></td>
+                        </tr>
+                    </table>
+                    <br />
+                    <span class="party-more">party-more</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels" class="hotels-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="hotel-title section-title">hotel-title</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="hotel-intro"></span>
+                    <br />
+                    <table class="infotable">
+                        <tr><th><a href="http://www.twardokus.de/">Altstadthotel Twardokus</a></th><td><span class="hotel-twadokus">hotel-twadokus</span></td></tr>
+                        <tr><th><a href="http://www.koehlers-forsthaus.de/">Ringhotel Köhlers Forsthaus</a></th><td><span class="hotel-forsthaus">hotel-forsthaus</span></td></tr>
+                        <tr><th><a href="http://www.hotel-stadt-aurich.de/">Hotel Stadt Aurich</a></th><td><span class="hotel-stadt">hotel-stadt</span></td></tr>
+                        <tr><th><a href="http://www.hochzeitshaus-aurich.de/">Hotel Hochzeitshaus</a></th><td><span class="hotel-hochzeit">hotel-hochzeit</span></td></tr>
+                        <tr><th><a href="http://www.alleehotel-eschen.de/">Alleehotel Eschen</a></th><td><span class="hotel-eschen">hotel-eschen</span></td></tr>
+                        <tr><th><a href="http://hotel-am-schloss-aurich.jimdo.com/">Hotel Am Schloss</a></th><td><span class="hotel-schloss">hotel-schloss</span></td></tr>
+                        <tr><th><a href="http://www.jugendherberge.de/de-de/jugendherbergen/aurich561/portraet">Jugendherberge Aurich</a></th><td><span class="hotel-jugend">hotel-jugend</span></td></tr>
+                    </table>
+                    <br />
+                    <span class="hotel-schneider"></span>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <img class='img-responsive photo' src="img/bed.jpg" data-rotate="-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Area Section -->
+    <section id="area" class="area-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="area-title section-title">area-title</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="row">
+                        <img src="img/aurich-sign.jpg" class="photo"  data-rotate="5"><br>
+                    </div><div class="row">
+                        <div class="fadein">
+                            <img src="img/harbour.jpg"  class="photo"  data-rotate="-5">
+                            <img src="img/slider-enercon.jpg"  class="photo"  data-rotate="5">
+                            <img src="img/windmillcows.jpg"  class="photo"  data-rotate="-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                <span class="area-header"></span><br>
+                    <table class="infotable">
+                        <tr><th><a href="http://www.teestube-kluntje.de/">Teestube Aurich</a></th><td><span class='area-table-1'>area-table-1</span></td></tr>
+                        <tr><th><a href="http://www.boerseaurich.de/">Börse</a></th><td><span class='area-table-2'>area-table-2</span></td></tr>
+                        <tr><th><a href="http://www.museum-aurich.de/">Historisches Museum Aurich</a></th><td><span class='area-table-3'>area-table-3</span></td></tr>
+                        <tr><th><a href="http://chicedine.de/">Chicedine</a></th><td><span class='area-table-4'>area-table-4</span></td></tr>
+                        <tr><th><a href="http://www.auricher-tee-versand.de/">Auricher Tee Versand</a></th><td><span class='area-table-5'>area-table-5</span></td></tr>
+                        <tr><th><span class="area-kids"></span></th></tr>
+                        <tr><th><a href="http://www.miraculum-aurich.de/machmitmuseum/spinnrad-schwert-und-federkiel/index.html">Mitmachmuseum</a></th><td><span class='area-table-6'>area-table-6</span></td></tr>
+                        <tr><th><a href="https://www.debaalje.de/">Baalje</a></th><td><span class='area-table-7'>area-table-7</span></td></tr>
+                        <tr><th><a href="http://www.kraxelmaxel.de/content/preise-kletterwald-aurich">Kletterwald</a></th><td><span class='area-table-8'>area-table-8</span></td></tr>
+                    </table><br />
+                    <span class="area-footer"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- People Section -->
+<!--    <section id="people" class="people-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="people-title section-title">people-title</h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Map Section -->
+    <section id="map-section" class="map-section">
+        <div class='container'>
+            <div class='row'>
+                <div class="col-md-12">
+                    <h1 class="map-title section-title">map-title</h1>
+                    <div class="map-div" id='map-div'>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=zI4k0v-zd1X0.kgEe_fmZ2_nI" 
+                            name='map-iframe' 
+                            id='map-iframe'
+                            frameborder='0'
+                            marginheight='0'
+                            marginwidth='0'
+                            scrolling='auto'
+                            allowtransparency='false'>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-12 text-center'>
+                    <h1 class="rsvp-title section-title">rsvp-title</h1>
+                    <form id="rsvpform">
+                        <table class="form-table" id="myTableEmail">
+                        <!--    <tr valign="top">
+                                <th></th>
+                                <td>
+                                    <input class="rsvptype" type="radio" name="rsvptype" value="new" checked="checked" id="new"/> <span class="rsvp-response-new">rsvp-response-new</span><br />
+                                    <input class="rsvptype" type="radio" name="rsvptype" value="retrieve" id="existing"/> <span class="rsvp-response-update">rsvp-response-update/span><br />
+                                </td>
+                            </tr>
+                            -->
+                            <tr valign="top">
+                                <th scope="row"><label for="email">E-mail</label></th>
+                                <td><input name="email" type="text" id="email" value="" class="regular-text" /></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class="form-table" id="table_details">
+                            <tr valign="top">
+                                <th><span class="rsvp-full-name-1">rsvp-full-name-1</span></th>
+                                <td><input name="fullname0" type="text" id="fullname0" value="" class="regular-text" /></td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row"><span class="rsvp-phone-number">rsvp-phone-number</span></th>
+                                <td><input name="phonenumber" type="text" id="phonenumber" value="" class="regular-text" /></td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row"><span class="rsvp-attendance">rsvp-attendance</span></th>
+                                <td>
+                                    <input class="attendance" type="radio" name="attendance" checked="checked" value="1"  id="attendyes"/> 
+                                    <span class="rsvp-canattend">rsvp-canattend</span><br />
+                                    <input class="attendance" type="radio" name="attendance" value="0"  id="attendno"/>
+                                    <span class="rsvp-cannotattend">rsvp-cannotattend</span><br />
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row"><span class="rsvp-vegetarian">rsvp-vegetarian</span>?</th>
+                                <td>
+                                    <input name="vegetarian0" type="checkbox" id="vegetarian0" value="1" />
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row"><label for="guests"><span class="rsvp-extra-people">rsvp-extra-people</span></label></th>
+                                <td>
+                                <select name="guests" id="guests">
+                                    <option value="0" class="number-zero">0</option>
+                                    <option value="1" class="number-one">1</option>
+                                    <option value="2" class="number-two">2</option>
+                                    <option value="3" class="number-three">3</option>
+                                    <option value="4" class="number-four">4</option>
+                                    <option value="5" class="number-five">5</option>
+                                    <option value="6" class="number-six">6</option>
+                                </select>
+                                </td>
+                            </tr>
+                            <tr id="rowfirst1">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-one" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname1" type="text" value="" id="fullname1" class="regular-text" /></td>
+                            </tr><tr id="rowveg1">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian1" type="checkbox" id="vegetarian1" /></td>
+                            </tr>
+
+                            <tr id="rowfirst2">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-two" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname2" type="text" value="" id="fullname2" class="regular-text" /></td>
+                            </tr><tr id="rowveg2">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian1" type="checkbox" id="vegetarian2"  /></td>
+                            </tr>
+
+                            <tr id="rowfirst3">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-three" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname3" type="text" value="" id="fullname3" class="regular-text" /></td>
+                            </tr><tr id="rowveg3">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian3" type="checkbox" id="vegetarian3"  /></td>
+                            </tr>
+
+                            <tr id="rowfirst4">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-four" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname4" type="text" value="" id="fullname4" class="regular-text" /></td>
+                            </tr><tr id="rowveg4">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian4" type="checkbox" id="vegetarian4"  /></td>
+                            </tr>
+                            <tr id="rowfirst5">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-five" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname5" type="text" value="" id="fullname5" class="regular-text" /></td>
+                            </tr><tr id="rowveg5">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian5" type="checkbox" id="vegetarian5"  /></td>
+                            </tr>
+
+                            <tr id="rowfirst6">
+                                <th scope="row"><span class="rsvp-invitee" ></span>&nbsp;<span class="number-six" ></span>&nbsp;<span class="rsvp-full-name-2">rsvp-full-name-2</span></th>
+                                <td><input name="fullname6" type="text" value="" id="fullname6" class="regular-text" /></td>
+                            </tr><tr id="rowveg6">
+                                <td><span class="rsvp-vegetarian"></span>?</td>
+                                <td><input name="vegetarian6" type="checkbox" id="vegetarian6"  /></td>
+                            </tr>
+                            
+
+                            <tr valign="top" id="song">
+                                <th scope="row"><span class="rsvp-song">rsvp-song</span></th>
+                                <td><input name="song" type="text" value="" id="song" class="regular-text" /></td>
+                            </tr>
+
+                            <tr valign="top">
+                                <th scope="row"><span class="rsvp-message">rsvp-message</span></th>
+                                <td><textarea name="comments" rows="3" cols="28" id="comments"></textarea></td>
+                            </tr>
+                        </table>
+                        <p class="submit"><input type="submit" name="submit" id="submit" class="button-primary" value="Submit"/></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/marikarich.js"></script>
+    <script src="js/rsvp.js"></script>
+
+</body>
+
+</html>

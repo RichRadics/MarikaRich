@@ -1,0 +1,65 @@
+body {
+	background: #ffffff url("/img/bg.jpg") repeat 50% 0 !important;
+	font-family: 'Special Elite', cursive;
+	font-weight: normal !important;
+	font-style: normal !important;
+	letter-spacing: 2px !important;
+	color: #231f20;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding-top: 50px;
+    text-align: left;    
+    min-height: 100%;
+	padding-bottom: 50px;
+}
+
+section #intro {
+    padding-top: 91px;
+}
+
+.section-title {
+	text-align:center;
+}
+
+.photo {
+	border:10px solid white;
+	position: relative;
+	top: 50px;
+}
+
+.mainbodytext {
+	font-size: 24;
+}
+
+.popouttext {
+}
+.infotable td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+form td {
+	text-align: left;
+}
+
+
+.fadein { position:relative}
+.fadein img { position:absolute; left:0; top:0; }
+
+div#map-div {
+	height: 100%;
+/*    margin: 40px;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    bottom: 25px;
+    min-width: 200px;*/
+
+}
+
+iframe#map-iframe { width: 100%; height:100% }
